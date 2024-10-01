@@ -9,7 +9,7 @@
   
   set text(
     font: "Ubuntu",
-    size: 12pt
+    size: 11pt
   )
   
   show heading: set text(weight: "regular")
@@ -49,7 +49,7 @@ body
   ]
 }
 
-// Everything has to be warped up in this
+// Everything has to be wrapped up in this
 #let page_layout(left: "", right: "") = {
   grid(columns: (60%, 40%), [#left], [#right])
 }
